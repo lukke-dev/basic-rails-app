@@ -13,3 +13,7 @@ rails g controller qlqnomedocontroller
 
 cai no routes, que redireciona para o controlador e o metodo especifico ex: pages#home,
 onde eu posso criar um arquivo home.html.erb, que já esta vinculado com este metodo.
+
+para criar uma nova pagina, começamos na rota com:
+get 'rota', to: 'controller#metodo"
+ex:get 'about', to: 'pages#about'
